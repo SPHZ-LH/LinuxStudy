@@ -1,0 +1,14 @@
+请根据语言描述，写出对应的Linux路径
+
+    在根目录下有一个文件夹test，文件夹内有一个文件hello.txt，请描述文件的路径
+
+        /test/hello.txt
+
+    在根目录下有一个文件itheima.txt,请描述文件的路径
+
+        /itheima.txt
+
+    在根目录下有一个文件夹itcast，在itcast文件夹内有文件夹itheima，在itheima文件夹内有文件
+    hello.txt，请描述文件的路径
+
+        /itcast/itheima/hello.txt
