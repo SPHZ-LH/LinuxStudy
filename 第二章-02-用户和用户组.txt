@@ -1,0 +1,17 @@
+1.Linux用户管理模式
+
+    · Linux可以支持多用户、多用户组、用户加入多个组
+    
+    · Linux权限管控的单元是用户级别和用户组级别
+
+2.用户、用户组相关管理命令
+
+    · groupadd添加组、groupdel删除组
+
+    · useradd添加用户、userdel删除组
+
+    · usermod修改用户组、id命令查看用户信息
+
+    · getent passwd查看系统全部用户信息
+    
+    · getent group查看系统全部组信息
