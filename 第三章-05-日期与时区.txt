@@ -1,0 +1,21 @@
+1.date命令的作用和用法
+
+    date命令可以查看日期时间，并可以格式化显示形式以及做日期计算
+
+    语法：date [-d] [+格式化字符串]
+    · %Y  年
+    · %m  月份
+    · %d  日
+    · %H  小时
+    · %M  分钟
+    · %S  秒
+
+2.如何修改Linux时区
+
+    rm -f /etc/localtime
+    
+    sudo ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+
+3.ntp的作用
+
+    可以自动联网同步时间，也可以通过ntpdate-u ntp.aliyun.com手动校验时间

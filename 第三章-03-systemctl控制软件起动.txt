@@ -1,0 +1,13 @@
+1.systemctl命令的作用是？
+
+    可以控制软件（服务）的启动、关闭、开机自启动
+
+    · 系统内置服务均可被systemctl控制
+
+    · 第三方软件，如果自动注册了可以被systemctl控制
+
+    · 第三方软件，如果没有自动注册，可以手动注册（后续学习）
+
+2.语法
+
+    systemctl start | stop | status | enable | disable 服务名
